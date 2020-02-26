@@ -1,0 +1,9 @@
+<html>
+<head>
+<title>Spring Web Application</title>
+</head>
+<body>
+  <P>Welcome</P>
+  <h1>${pageTitle }</h1>
+</body>
+</html>

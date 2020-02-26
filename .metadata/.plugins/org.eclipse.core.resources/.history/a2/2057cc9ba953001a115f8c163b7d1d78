@@ -1,0 +1,36 @@
+package com.cts.service;
+
+public class GreetServiceEnhancedImpl2 implements GreetService {
+	private GreetNoteProvider gnp;
+	
+	public String greet(String userName) {
+		return userName;
+	}
+
+	public GreetNoteProvider getGnp() {
+		return gnp;
+	}
+	
+
+	public GreetServiceEnhancedImpl2() {
+		super();
+	}
+
+	public void setGnp(GreetNoteProvider gnp) {
+		this.gnp = gnp;
+	}
+
+	public GreetServiceEnhancedImpl2(GreetNoteProvider gnp) {
+		super();
+		this.gnp = gnp;
+	}
+	
+	
+
+
+	
+
+
+
+	
+	}

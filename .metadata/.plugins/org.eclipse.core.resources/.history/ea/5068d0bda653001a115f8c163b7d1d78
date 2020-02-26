@@ -1,0 +1,6 @@
+package com.cts.service;
+
+public class GreetNoteProviderSimpleImpl  {
+	return "hello";
+
+}

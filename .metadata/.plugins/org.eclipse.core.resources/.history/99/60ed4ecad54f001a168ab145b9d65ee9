@@ -1,0 +1,16 @@
+package com.cts.ui;
+
+import com.cts.service.Greet;
+import com.cts.service.GreetService;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class DidApp1 {
+
+	public static void main(String[] args) {
+		ApplictionContext context=new ClassPathXmlApplicationContext("BeansOne.xml");
+				
+		GreetService gs=(GreetService)context.getBean("g1");
+		System.out.println("bala");
+	}
+
+}

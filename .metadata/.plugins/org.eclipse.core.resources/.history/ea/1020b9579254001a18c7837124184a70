@@ -1,0 +1,5 @@
+package com.cts.web.controller;
+
+public class DefaultController {
+
+}

@@ -1,0 +1,15 @@
+package com.cts.web;
+
+import javax.servlet.ServletException;
+
+import org.springframework.web.WebApplicationInitializer;
+import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
+
+public class WebApp  implements WebApplicationInitializer{
+	public void onStartup(ervletContext ctx)throws ServletException{
+		AnnotationConfigWebApplicationContext webCtx=new AnnotationConfigWebApplicationContext();
+		webCtx.register(SpringWebMvcConfig.class);
+		webCtx.setServletContext(ctx);
+	}
+
+}
